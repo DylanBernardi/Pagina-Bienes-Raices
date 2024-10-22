@@ -1,0 +1,18 @@
+.sobre-nosotros {
+  @include tablet {
+    @include grid(2, 5rem);
+  }
+}
+
+.texto-nosotros {
+  h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+  @include tablet {
+    h3 {
+      text-align: left;
+      font-weight: bold;
+    }
+  }
+}
